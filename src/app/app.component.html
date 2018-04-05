@@ -1,7 +1,9 @@
 <div *ngFor="let hero of heroes">
+  {{hero.id}}
   {{hero.name}}
-  {{hero.images.xs}}
-</div>
-<div>
   
+
+    <img [src]="hero.images.md">
+
 </div>
+
