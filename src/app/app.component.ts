@@ -17,7 +17,10 @@ interface Hero {
 })
 export class AppComponent implements OnInit {
 
+
   private heroes = [];
+
+
 
   constructor(private http: HttpClient) {
 
@@ -34,3 +37,8 @@ export class AppComponent implements OnInit {
 
 }
 
+<<<<<<< HEAD
+=======
+// import HttpClient & methode & cdn api.
+
+>>>>>>> 3334d668de90e17e56e36ef9f7195d3690a95d32
