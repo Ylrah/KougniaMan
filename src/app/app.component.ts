@@ -17,7 +17,7 @@ interface Hero {
 })
 export class AppComponent implements OnInit {
 
-
+  message = '';
   private heroes = [];
   selectedHero = [];
 
@@ -47,9 +47,11 @@ export class AppComponent implements OnInit {
   fight() {
     if (this.selectedHero[0].powerstats.combat + this.hasard(0, 50) > this.selectedHero[1].powerstats.combat + this.hasard(0, 50)) {
       console.log('win 1');
+      this.message = 'Player 1 WIN !!!';
 
     } else {
       console.log('win 2');
+      this.message = 'Player 2 WIN !!!';
 
     }
   }

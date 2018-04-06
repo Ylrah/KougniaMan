@@ -11,3 +11,10 @@ h2 {
 .container {
   margin-top: 99%;
 }
+
+.score {
+  font-family: "maskb";
+  color: white;
+  border: tomato;
+  font-size: 4em;
+}
