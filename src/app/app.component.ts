@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
 
 
   private heroes = [];
+  selectedHero = [];
 
 
 
@@ -29,21 +30,41 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.http.get<Hero[]>('https://akabab.github.io/superhero-api/api/all.json').subscribe(heroes => {
       this.heroes = heroes;
+      this.selectedHero.push(heroes[this.hasard(0, 500)]);
+      this.selectedHero.push(heroes[this.hasard(0, 500)]);
+      console.log(this.selectedHero);
+      
     });
 
   }
 
+  hasard(min, max) {
+    // console.log( min + Math.floor(Math.random() * (max - min + 1)));
+    
+    return min + Math.floor(Math.random() * (max - min + 1));
+  }
 
+  fight() {
+    if (this.selectedHero[0].powerstats.combat + this.hasard(0, 50) > this.selectedHero[1].powerstats.combat + this.hasard(0, 50)) {
+console.log('win 1');
+
+    } else {
+      console.log('win 2');
+
+    }
+  }
+
+  changePlayer(id) {
+    this.selectedHero[id] = this.heroes[this.hasard(0, 500)];
+  }
+  
 
 }
-function hasard(min, max) {
-  return min + Math.floor(Math.random() * (max - min + 1));
-}
 
-for (let i = 0; i < 6; i++) {
-  console.log(hasard(1, 20));
+// for (let i = 0; i < 6; i++) {
+//   console.log(hasard(1, 20));
 
-}
+// }
 
 
 

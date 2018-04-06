@@ -8,17 +8,18 @@
 
 
 </div>  -->
-<div style="text-align:center">
-  <h2>Choose your Superheroes team : </h2>
+<div style="text-align:center" *ngIf="heroes.length > 0">
+  <h2>SEE IF YOU ARE LUCKY !</h2>
   <br>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3 offset-1">
         <div class="card" id="236">
-          <h3 class="card-title">{{ heroes[236].name}}</h3>
-          <img class="card-img-top" src="{{ heroes[236].images.md}}" alt="Card image cap">
+          <h3 class="card-title">{{ selectedHero[0].name}}</h3>
+          <img class="card-img-top" src="{{ selectedHero[0].images.md}}" alt="Card image cap">
           <div class="card-body">
-            <button type="button" class="btn btn-primary">Primary</button>
+              <input type="text" class="">
+            <button type="button" (click)="changePlayer(0)" class="btn btn-primary">PLAYER 1</button>
 
           </div>
         </div>
@@ -28,10 +29,11 @@
 
       <div class="col-md-3 offset-4">
         <div class="card" id="79">
-          <h3 class="card-title">{{ heroes[79].name}}</h3>
-          <img class="card-img-top" src="{{ heroes[79].images.md}}" alt="Card image cap">
+          <h3 class="card-title">{{ selectedHero[1].name}}</h3>
+          <img class="card-img-top" src="{{ selectedHero[1].images.md}}" alt="Card image cap">
           <div class="card-body">
-            <button type="button" class="btn btn-primary">Primary</button>
+              <input type="text" class="">
+            <button type="button" (click)="changePlayer(1)" class="btn btn-primary">PLAYER 2</button>
 
           </div>
         </div>
@@ -42,7 +44,7 @@
 
     <input type="text" class="">
 
-    <button onclick="hasard()" type="be" class="btn btn-primary">Roll the dice</button>
+    <button (click)="fight()" type="be" class="btn btn-primary">Roll the dice</button>
   </div>
 
   <!-- slider
