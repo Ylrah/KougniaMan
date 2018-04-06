@@ -20,3 +20,6 @@ Execute the following command : ng serve -o
 
 // Click on the button below the image of the superhero to change the character randomly among more than 500 available! Once your super hero has chosen, click on the "roll the dices" button to start the fight! The outcome of the fight depends on the characteristics of your superhero, but also luck! Thus, a superhero A with superior characteristics to a superhero B will not win at all. Do not hesitate to fight again! Good luck !
 
+
+// developped by : Harly goma & Vincent malleron
+
