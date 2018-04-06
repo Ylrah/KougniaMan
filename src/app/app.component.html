@@ -9,7 +9,9 @@
 
 </div>  -->
 <div style="text-align:center" *ngIf="heroes.length > 0">
-  <h2>SEE IF YOU ARE LUCKY !</h2>
+  <div class="titre">
+    <h2>SEE IF YOU ARE LUCKY !</h2>
+  </div>
   <br>
   <div class="container-fluid">
     <div class="row">
@@ -18,7 +20,7 @@
           <h3 class="card-title">{{ selectedHero[0].name}}</h3>
           <img class="card-img-top" src="{{ selectedHero[0].images.md}}" alt="Card image cap">
           <div class="card-body">
-              <input type="text" class="">
+
             <button type="button" (click)="changePlayer(0)" class="btn btn-primary">PLAYER 1</button>
 
           </div>
@@ -32,15 +34,13 @@
           <h3 class="card-title">{{ selectedHero[1].name}}</h3>
           <img class="card-img-top" src="{{ selectedHero[1].images.md}}" alt="Card image cap">
           <div class="card-body">
-              <input type="text" class="">
+
             <button type="button" (click)="changePlayer(1)" class="btn btn-primary">PLAYER 2</button>
 
           </div>
         </div>
       </div>
     </div>
-
-
 
     <input type="text" class="">
 
