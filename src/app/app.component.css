@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "maskb";
+  src: url("assets/maskb.ttf");
+}
+
+h2 {
+  font-family: maskb;
+  font-size: 6em;
+}
+
+.container {
+  margin-top: 99%;
+}
