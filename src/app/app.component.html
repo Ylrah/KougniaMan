@@ -1,9 +1,56 @@
-<div *ngFor="let hero of heroes">
+<!-- 
+<div *ngFor="let hero of heroes | slice:0:10 ;let i=index">
+
+    <img [src]="hero.images.md">
   {{hero.id}}
   {{hero.name}}
   
 
-    <img [src]="hero.images.md">
 
+</div>  -->
+
+<h2>Choose your Superheroes team : </h2>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;" id="236">
+        <h3 class="card-title">{{ heroes[236].name}}</h3>
+        <img class="card-img-top" src="{{ heroes[236].images.sm}}" alt="Card image cap">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;" id="79">
+        <h3 class="card-title">{{ heroes[79].name}}</h3>
+        <img class="card-img-top" src="{{ heroes[79].images.sm}}" alt="Card image cap">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;" id="115">
+        <h3 class="card-title">{{ heroes[115].name}}</h3>
+        <img class="card-img-top" src="{{ heroes[115].images.sm}}" alt="Card image cap">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;" id="226">
+        <h3 class="card-title">{{ heroes[226].name}}</h3>
+        <img class="card-img-top" src="{{ heroes[226].images.sm}}" alt="Card image cap">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="col-12" style="text-align: center">
+  </div>
 </div>
-
