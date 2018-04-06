@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
   }
 
   hasard(min, max) {
-    // console.log( min + Math.floor(Math.random() * (max - min + 1)));
+   
 
     return min + Math.floor(Math.random() * (max - min + 1));
   }
@@ -61,16 +61,4 @@ export class AppComponent implements OnInit {
 
 }
 
-// for (let i = 0; i < 6; i++) {
-//   console.log(hasard(1, 20));
 
-// }
-
-
-
-// document.getElementById("demo").onclick = function () { myFunction() };
-
-// function myFunction() {
-//   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
-// }
-// </script>

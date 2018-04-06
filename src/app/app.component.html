@@ -1,13 +1,3 @@
-<!--
-<div *ngFor="let hero of heroes | slice:0:10 ;let i=index">
-
-    <img [src]="hero.images.md">
-  {{hero.id}}
-  {{hero.name}}
-
-
-
-</div>  -->
 <div style="text-align:center" *ngIf="heroes.length > 0">
   <div class="titre">
     <h2>SEE IF YOU ARE LUCKY !</h2>
@@ -50,38 +40,6 @@
     <button (click)="fight()" type="be" class="btn btn-primary">Roll the dice</button>
   </div>
 
-  <!-- slider
-
-  <div class="row">
-
-
-    <div class="col-10 offset-4 slider">
-
-
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-
-          <div class="carousel-item active">
-            <img class="d-block w-25" src="{{ heroes[79].images.md}}" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-25" src="{{ heroes[7].images.md}}" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-25" src="{{ heroes[79].images.md}}" alt="five's slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true">#</span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </div> -->
 
 
 </div>
