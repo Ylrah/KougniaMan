@@ -1,27 +1,22 @@
-# KougniaMan
+                                            // KOUGNIA-MAN FIGHT//
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+// Welcome to our super hero fight game !! 
 
-## Development server
+// 
+// 
+// Before you start playing KOUGNIA-MAN FIGHT, please read carefully the following instructions:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+// HOW TO START THE GAME 'KOUGNIA-MAN FIGHT' :
 
-## Code scaffolding
+To start the game , please follow the following instructions:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute the following command : ng serve -o 
 
-## Build
+// the game is now open in your browser, you can see the following url : http://localhost:4200/.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+// Now you can play, only the lucky ones win !
 
-## Running unit tests
+// RULES OF THE GAME :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+// Click on the button below the image of the superhero to change the character randomly among more than 500 available! Once your super hero has chosen, click on the "roll the dices" button to start the fight! The outcome of the fight depends on the characteristics of your superhero, but also luck! Thus, a superhero A with superior characteristics to a superhero B will not win at all. Do not hesitate to fight again! Good luck !
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
