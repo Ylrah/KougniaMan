@@ -5,7 +5,7 @@
 
 h2 {
   font-family: maskb;
-  font-size: 6em;
+  font-size: 5em;
 
 }
 
@@ -17,6 +17,21 @@ h2 {
 
 .score {
   font-family: "maskb";
-  color: rgb(255, 0, 0);
+  color: rgb(216, 189, 189);
   font-size: 4em;
+  background-color:rgba(61, 47, 47, 0.5) ;
+  border-radius: 25px;
+  padding: 50%, auto, 50%;
+
 }
+
+.score:hover{
+    
+color : rgb(223, 208, 208);
+transition : 3s;
+border-radius: 0;
+background-color: rgba(204, 30, 30, 0.4);
+    
+}
+
+
