@@ -7,7 +7,7 @@ interface Hero {
   id: number;
   name: string;
   image: string;
-
+  powerstats : string;
 }
 
 @Component({

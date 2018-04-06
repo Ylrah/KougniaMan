@@ -4,6 +4,9 @@
   </div>
   <button class="score">{{message}}</button>
   <br>
+  <div class="stat1">
+    <p>Power {{selectedHero[0].powerstats.power}}</p>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3 offset-1">
@@ -17,6 +20,8 @@
         </div>
       </div>
 
+      <!-- <div><p>Speed {{selectedHero[0].powerstats.speed}}</p></div><br/>
+<div><p>Combat {{selectedHero[0].powerstats.combat}}</p></div> -->
 
 
       <div class="col-md-3 offset-4">
@@ -30,10 +35,13 @@
         </div>
       </div>
     </div>
+    <div class="stat2">
+      <p>Power {{selectedHero[1].powerstats.power}}</p>
+    </div>
+    <div class="match">
+      <button (click)="fight()" type="be" class="btn btn-primary">Roll the dice</button>
+    </div>
 
-    <button (click)="fight()" type="be" class="btn btn-primary">Roll the dice</button>
+
+
   </div>
-
-
-
-</div>
