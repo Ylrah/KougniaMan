@@ -18,7 +18,7 @@ interface Hero {
 export class AppComponent implements OnInit {
 
   message = '';
-  private heroes = [];
+  heroes = [];
   selectedHero = [];
 
 

@@ -1,3 +1,3 @@
 #!/bin/bash
-npm run build -- --base-href "https://ctoxy.github.io/KougniaMan/"
-npm run deploy -- --repo=https://github.com/ctoxy/KougniaMan.git
+npm run build -- --base-href "https://Ylrah.github.io/KougniaMan/"
+npm run deploy -- --repo=https://github.com/Ylrah/KougniaMan.git
