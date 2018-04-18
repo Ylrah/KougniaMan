@@ -6,51 +6,34 @@
 h2 {
   font-family: maskb;
   font-size: 5em;
-
-}
-
-
-
-.container {
-  margin-top: 99%;
 }
 
 .score {
   font-family: "maskb";
   color: rgb(216, 189, 189);
   font-size: 3em;
-  background-color:rgba(61, 47, 47, 0.5) ;
+  background-color: rgba(61, 47, 47, 0.5);
   border-radius: 25px;
   padding: 50%, auto, 50%;
-
 }
 
-.score:hover{
-    
-color : rgb(223, 208, 208);
-transition : 3s;
-border-radius: 0;
-background-color: rgba(204, 30, 30, 0.7);
-    
+.score:hover {
+  color: rgb(223, 208, 208);
+  transition: 3s;
+  border-radius: 0;
+  background-color: rgba(204, 30, 30, 0.7);
 }
 
-.stat1{
-    text-align: left;
-    margin-left: 15%;
-    color: white;
-    font-size: 30px;
-    font-family: maskb;
+.stat1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: maskb;
 }
 
-.stat2{
-    text-align: left;
-    margin-left: 75%;
-    color: white;
-    margin-top: 1%;
-    font-size: 30px;
-    font-family: maskb;
+.stat2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: maskb;
 }
-
-
-
-
