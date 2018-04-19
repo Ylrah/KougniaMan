@@ -42,3 +42,8 @@ h2 {
   font-size: 30px;
   font-family: maskb;
 }
+
+.card {
+  max-width: 300px;
+  max-height: 600px;
+}
