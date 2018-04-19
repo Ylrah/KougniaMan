@@ -8,48 +8,38 @@
     <div class="match">
       <button (click)="fight()" type="be" class="btn btn-primary">Roll the dice</button>
     </div>
-
+    <!-- HERO 1 -->
     <div class="container-fluid">
       <div class="row">
-
-        <div class="col-md-3 offset-1">
+        <div class="">
           <div class="card" id="236">
             <h3 class="card-title">{{ selectedHero[0].name}}
               <div class="stat2 ">
                 <p>Power {{selectedHero[0].powerstats.power}}</p>
               </div>
             </h3>
-
-
             <img class="card-img-top" src="{{ selectedHero[0].images.md}}" alt="Card image cap">
-
-
             <div class="card-body">
               <div class="stat1">
               </div>
               <button type="button" (click)="changePlayer(0)" class="btn btn-primary">PLAYER 1</button>
             </div>
           </div>
-
         </div>
 
+        <!-- image de vs -->
+        <img class="gif" src="https://media.giphy.com/media/l3vR9yXR81JJ3XcT6/giphy.gif">
 
-        <!-- <div><p>Speed {{selectedHero[0].powerstats.speed}}</p></div><br/>
-<div><p>Combat {{selectedHero[0].powerstats.combat}}</p></div> -->
-
-
-        <div class="col-md-3 offset-4">
+        <!-- HERO 2 -->
+        <div class="">
           <div class="card" id="79">
             <h3 class="card-title">{{ selectedHero[1].name}}
               <div class="stat2 ">
                 <p>Power {{selectedHero[1].powerstats.power}}</p>
               </div>
             </h3>
-
             <img class="card-img-top" src="{{ selectedHero[1].images.md}}" alt="Card image cap">
             <div class="card-body">
-
-
               <button type="button" (click)="changePlayer(1)" class="btn btn-primary">PLAYER 2</button>
             </div>
           </div>
