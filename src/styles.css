@@ -3,5 +3,7 @@
 /* image background */
 
 body {
-  background-image: url('https://zupimages.net/up/18/14/m307.jpg');
+  background-image: url('http://getwallpapers.com/wallpaper/full/9/3/5/886897-thunderstorm-wallpaper-1920x1178-windows-10.jpg');
+  background-repeat:repeat-y;
+  min-width: 600px;
 }
