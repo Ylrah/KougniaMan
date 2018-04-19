@@ -1,6 +1,7 @@
 @font-face {
   font-family: "maskb";
   src: url("assets/maskb.ttf");
+  opacity: 0, 5;
 }
 
 h2 {
