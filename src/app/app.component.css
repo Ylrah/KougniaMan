@@ -1,7 +1,11 @@
+body {
+  background-image: url('https://zupimages.net/up/18/14/m307.jpg');
+  opacity: 0, 5;
+}
+
 @font-face {
   font-family: "maskb";
   src: url("assets/maskb.ttf");
-  opacity: 0, 5;
 }
 
 h2 {
